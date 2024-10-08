@@ -1,0 +1,6 @@
+﻿services:
+  stc.iam.api:
+    image: stc.iam.api
+    build:
+      context: .
+      dockerfile: stc.iam.Api/Dockerfile
